@@ -4,6 +4,11 @@
 using namespace std;
 
 int main(){
+    cout << "Who are you?" << endl;
+    cout << "> ";
+    string userName;cin>>userName;
+    cout << "Hello, " << userName << "!" << endl;
+
     cout << "Tossing a coin..." << endl;
     int h = 0, t = 0;
     random_device x;
